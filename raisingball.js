@@ -25,13 +25,13 @@
     }
     function window_resize() {
         //canvas铺满窗口
-        width = window.innerWidth;
-        height = window.innerHeight;
+        //width = window.innerWidth;
+        //height = window.innerHeight;
 
         // //如果需要铺满内容可以换下面这个
-        // var panel = document.getElementById('header_canvas');
-        // width=panel.offsetWidth;
-        // height=panel.offsetHeight;
+        var panel = document.getElementById('header_canvas');
+        width=panel.offsetWidth;
+        height=panel.offsetHeight;
 
         canvas.width = width;
         canvas.height = height;
